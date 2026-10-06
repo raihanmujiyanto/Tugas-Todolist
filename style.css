@@ -7,102 +7,107 @@
 .container{
     width: 100%;
     min-width: 100px;
-    background-color: pink;
+    background-color: #e31d1d;
     padding: 20px;
+    min-height: 100vh;
 }
 
 .To-Do{
     width: 100%;
     max-width: 500px;
-    background-color: rgb(124, 191, 238);
-    margin: 100px auto 20px;
-    padding: 30px 40px 80px;
+    background-color: rgb(17, 16, 16);
+    margin: 80px auto 20px;
+    padding: 30px 40px 50px;
     border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
 .To-Do h1{
     text-align: center;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    color: #fefa00;
 }
 
 .input-area{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(201, 205, 205);
+    background-color: #eeeeee;
     border-radius: 40px;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
 input {
-        flex: 1;
-        border: none;
-        outline: none;
-        padding: 10px;
-        background-color: transparent;
-        font-size: 16px;
-    }
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 16px;
+}
 
-    #tombol {
-        border: none;
-        outline: none;
-        padding: 10px 20px;
-        background: #ea7bbe;
-        color: lch(9.77% 0 296.81);
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 40px;
-    }
-    
-    #tombol:hover {
-        background: #d85d92;
-        color: #232323;
-    }
-    
-    #listContainer li {
-        list-style: none;
-        padding: 12px 8px 10px 50px;
-        font-size: 17px;
-        border-bottom: 1px solid #ccc;
-        user-select: none;
-        cursor: pointer;
-        position: relative;
-    }
-    
-    #listContainer li::before {
-        content: "\2610";
-        position: absolute;
-        font-size: 22px;
-        left: 10px;
-        bottom: 6px;
-    }
-    
-    #listContainer li.done {
-        color: #888;
-        text-decoration: line-through;
-    }
-    
-    #listContainer li.done::before {
-        content: "\2611";
-        color: #27ae60;
-    }
-    
-    #listContainer li span {
-        position: absolute;
-        right: 0;
-        top: 0px;
-        color: #888;
-        width: 40px;
-        height: 40px;
-        font-size: 22px;
-        line-height: 40px;
-        text-align: center;
-        border-radius: 50%;
-    }
-    
-    #listContainer li span:hover {
-        background: #ccc;
-        color: #fff;
-    }
+#tombol {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #171115;
+    color: rgb(246, 246, 4);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#tombol:hover {
+    background: #be1515;
+    color: rgb(205, 211, 27);
+}
+
+#IsiList li {
+    list-style: none;
+    padding: 14px 45px 14px 50px;
+    font-size: 17px;
+    border-bottom: 2px solid #e8e8e8;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+#IsiList li::before {
+    content: "\2610";
+    position: absolute;
+    font-size: 24px;
+    left: 10px;
+    top: 9px;
+    color: #ede606;
+}
+
+#IsiList li.done {
+    color: #d9dc1a;
+    text-decoration: line-through;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+#IsiList li.done::before {
+    content: "\2611";
+    color: #27ae60;
+}
+
+#IsiList li span {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    color: #e4f407;
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#IsiList li span:hover {
+    background: #eeeeee;
+    color: #555;
+}
