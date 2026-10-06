@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }
 
+#Judul {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+#sub-judul {
+    text-align: center;
+    margin-top: 0;
+}
+
 .container{
     width: 100%;
     min-width: 100px;
-    background-color: #e31d1d;
+    background-color: #e8e2e2;
     padding: 20px;
     min-height: 100vh;
 }
@@ -15,7 +26,7 @@
 .To-Do{
     width: 100%;
     max-width: 500px;
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(247, 245, 245);
     margin: 80px auto 20px;
     padding: 30px 40px 50px;
     border-radius: 20px;
@@ -26,7 +37,7 @@
     text-align: center;
     align-items: center;
     padding-bottom: 20px;
-    color: #fefa00;
+    color: #20201c;
 }
 
 .input-area{
@@ -53,15 +64,15 @@ input {
     outline: none;
     padding: 10px 20px;
     background: #171115;
-    color: rgb(246, 246, 4);
+    color: rgb(238, 238, 231);
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
 }
 
 #tombol:hover {
-    background: #be1515;
-    color: rgb(205, 211, 27);
+    background: #b3aeae;
+    color: rgb(33, 33, 32);
 }
 
 #IsiList li {
@@ -80,11 +91,11 @@ input {
     font-size: 24px;
     left: 10px;
     top: 9px;
-    color: #ede606;
+    color: #292928;
 }
 
 #IsiList li.done {
-    color: #d9dc1a;
+    color: #212120;
     text-decoration: line-through;
     border-bottom: 2px solid #f0f0f0;
 }
@@ -98,7 +109,7 @@ input {
     position: absolute;
     right: 5px;
     top: 7px;
-    color: #e4f407;
+    color: #171717;
     width: 35px;
     height: 35px;
     font-size: 22px;
